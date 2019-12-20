@@ -16,9 +16,6 @@
             android:label="@string/title_activity_typing"
             android:parentActivityName=".MainActivity"
             android:theme="@style/FullscreenTheme">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.skaldebane.typer.MainActivity" />
         </activity>
         <activity android:name=".MainActivity">
             <intent-filter>
