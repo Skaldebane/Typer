@@ -2,11 +2,9 @@ package com.skaldebane.typer;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Intent;
 import android.os.Bundle;
-import android.widget.Button;
 
-@SuppressWarnings("RedundantCast")
+@SuppressWarnings({"RedundantCast", "ConstantConditions"})
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -14,7 +12,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
+        getSupportActionBar().setDisplayShowCustomEnabled(true);
+        getSupportActionBar().setCustomView(R.layout.appbar_layout);
     }
 
 }
