@@ -1,8 +1,10 @@
-<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
 
     <Preference
         app:key="text"
-        app:title="Text to type..." />
+        app:title="Text to type..."
+        app:summary="None. Click here to set text." />
 
     <PreferenceCategory app:title="@string/messages_header">
 
